@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func btnResizeImage(sender: UIButton) {
+    @IBAction func btnResizeImage(_ sender: UIButton) {
         
         let scale: CGFloat = 2.0
         var newWidth: CGFloat, newHeight: CGFloat
@@ -41,10 +41,9 @@ class ViewController: UIViewController {
             
             newWidth = imgView.frame.width/scale
             newHeight = imgView.frame.height/scale
-            print(imgView.frame.size)
             imgView.frame.size = CGSize(width: newWidth, height: newHeight)
-            print(imgView.frame.size)
-            btnResize.setTitle("확대", forState: .Normal)
+            btnResize.setTitle("확대", for: .normal)
+            
             
         } else { // false
             
@@ -53,15 +52,15 @@ class ViewController: UIViewController {
             imgView.frame.size = CGSize(width: newWidth, height: newHeight)
             //print(newHeight)
             //print(newWidth)
-            btnResize.setTitle("축소", forState: .Normal)
+            btnResize.setTitle("축소", for: .normal)
             
         }
         isZoom = !isZoom
     }
 
-    @IBAction func switchImageOnOff(sender: UISwitch) {
+    @IBAction func switchImageOnOff(_ sender: UISwitch) {
         
-        if sender.on {
+        if sender.isOn {
             
             imgView.image = imgOn
             
