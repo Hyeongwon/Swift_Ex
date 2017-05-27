@@ -12,6 +12,8 @@
 		A700F0601ED9543B00C8AF76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A700F05E1ED9543B00C8AF76 /* Main.storyboard */; };
 		A700F0621ED9543B00C8AF76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A700F0611ED9543B00C8AF76 /* Assets.xcassets */; };
 		A700F0651ED9543B00C8AF76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A700F0631ED9543B00C8AF76 /* LaunchScreen.storyboard */; };
+		A700F0721ED9588C00C8AF76 /* OffLamp.png in Resources */ = {isa = PBXBuildFile; fileRef = A700F0701ED9588C00C8AF76 /* OffLamp.png */; };
+		A700F0731ED9588C00C8AF76 /* OnLamp.png in Resources */ = {isa = PBXBuildFile; fileRef = A700F0711ED9588C00C8AF76 /* OnLamp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A700F0611ED9543B00C8AF76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A700F0641ED9543B00C8AF76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A700F0661ED9543B00C8AF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A700F0701ED9588C00C8AF76 /* OffLamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OffLamp.png; sourceTree = "<group>"; };
+		A700F0711ED9588C00C8AF76 /* OnLamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnLamp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				A700F05A1ED9543B00C8AF76 /* AppDelegate.swift */,
 				A700F05C1ED9543B00C8AF76 /* ViewController.swift */,
+				A700F0701ED9588C00C8AF76 /* OffLamp.png */,
+				A700F0711ED9588C00C8AF76 /* OnLamp.png */,
 				A700F05E1ED9543B00C8AF76 /* Main.storyboard */,
 				A700F0611ED9543B00C8AF76 /* Assets.xcassets */,
 				A700F0631ED9543B00C8AF76 /* LaunchScreen.storyboard */,
@@ -125,6 +131,8 @@
 				A700F0651ED9543B00C8AF76 /* LaunchScreen.storyboard in Resources */,
 				A700F0621ED9543B00C8AF76 /* Assets.xcassets in Resources */,
 				A700F0601ED9543B00C8AF76 /* Main.storyboard in Resources */,
+				A700F0731ED9588C00C8AF76 /* OnLamp.png in Resources */,
+				A700F0721ED9588C00C8AF76 /* OffLamp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
