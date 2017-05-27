@@ -12,6 +12,9 @@
 		A7D737E61ED99CBD009DB004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D737E41ED99CBD009DB004 /* Main.storyboard */; };
 		A7D737E81ED99CBD009DB004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D737E71ED99CBD009DB004 /* Assets.xcassets */; };
 		A7D737EB1ED99CBD009DB004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D737E91ED99CBD009DB004 /* LaunchScreen.storyboard */; };
+		A7D737FB1ED99E04009DB004 /* Cosmos01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7D737F81ED99E04009DB004 /* Cosmos01.jpg */; };
+		A7D737FC1ED99E04009DB004 /* Cosmos02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7D737F91ED99E04009DB004 /* Cosmos02.jpg */; };
+		A7D737FD1ED99E04009DB004 /* Cosmos03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7D737FA1ED99E04009DB004 /* Cosmos03.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A7D737E71ED99CBD009DB004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D737EA1ED99CBD009DB004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D737EC1ED99CBD009DB004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D737F81ED99E04009DB004 /* Cosmos01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cosmos01.jpg; sourceTree = "<group>"; };
+		A7D737F91ED99E04009DB004 /* Cosmos02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cosmos02.jpg; sourceTree = "<group>"; };
+		A7D737FA1ED99E04009DB004 /* Cosmos03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cosmos03.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				A7D737E21ED99CBD009DB004 /* ViewController.swift */,
 				A7D737E41ED99CBD009DB004 /* Main.storyboard */,
 				A7D737E71ED99CBD009DB004 /* Assets.xcassets */,
+				A7D737F81ED99E04009DB004 /* Cosmos01.jpg */,
+				A7D737F91ED99E04009DB004 /* Cosmos02.jpg */,
+				A7D737FA1ED99E04009DB004 /* Cosmos03.jpg */,
 				A7D737E91ED99CBD009DB004 /* LaunchScreen.storyboard */,
 				A7D737EC1ED99CBD009DB004 /* Info.plist */,
 			);
@@ -123,8 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D737FB1ED99E04009DB004 /* Cosmos01.jpg in Resources */,
 				A7D737EB1ED99CBD009DB004 /* LaunchScreen.storyboard in Resources */,
+				A7D737FC1ED99E04009DB004 /* Cosmos02.jpg in Resources */,
 				A7D737E81ED99CBD009DB004 /* Assets.xcassets in Resources */,
+				A7D737FD1ED99E04009DB004 /* Cosmos03.jpg in Resources */,
 				A7D737E61ED99CBD009DB004 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
