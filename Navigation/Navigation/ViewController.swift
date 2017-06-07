@@ -11,6 +11,7 @@ import UIKit
 protocol EditDelegate {
     func didMessageEditDone(_ controller:EditViewController, message: String);
     func didImageOnOffDone(_ controller:EditViewController, isOn: Bool);
+    func didImageZoomDone(_ controller:EditViewController, isZoom: Bool);
 }
 
 class ViewController: UIViewController, EditDelegate {
@@ -19,7 +20,8 @@ class ViewController: UIViewController, EditDelegate {
     let imgOff = UIImage(named: "OffLamp.png");
     
     var isOn = true;
-    
+    var isZoom = false;
+    var oriZoom = false;
 
     @IBOutlet weak var txtMessage: UITextField!
     @IBOutlet weak var imgView: UIImageView!
@@ -52,6 +54,7 @@ class ViewController: UIViewController, EditDelegate {
         editViewController.textMessage = txtMessage.text!;
         editViewController.isOn = isOn;
         editViewController.delegate = self;
+        editViewController.isZoom = oriZoom;
     }
     
     func didMessageEditDone(_ controller: EditViewController, message: String) {
@@ -70,6 +73,34 @@ class ViewController: UIViewController, EditDelegate {
             imgView.image = imgOff;
             self.isOn = false;
             
+        }
+    }
+    
+    func didImageZoomDone(_ controller: EditViewController, isZoom: Bool) {
+        
+        let scale:CGFloat = 2.0;
+        var newWidth:CGFloat, newHeight:CGFloat;
+        
+        if isZoom {
+            if oriZoom {
+                
+            } else {
+                self.isZoom = false
+                self.oriZoom = true
+                newWidth = imgView.frame.width*scale
+                newHeight = imgView.frame.height*scale
+                imgView.frame.size = CGSize(width: newWidth, height: newHeight)
+            }
+        } else {
+            if oriZoom  {
+                self.isZoom = true
+                self.oriZoom = false
+                newWidth = imgView.frame.width/scale
+                newHeight = imgView.frame.height/scale
+                imgView.frame.size = CGSize(width: newWidth, height: newHeight)
+            } else {
+                
+            }
         }
     }
 

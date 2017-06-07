@@ -121,10 +121,19 @@
                                     <action selector="swImageOnOff:" destination="hiA-jT-zzK" eventType="valueChanged" id="iOP-CJ-EkI"/>
                                 </connections>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFE-PV-T6K">
+                                <rect key="frame" x="16" y="97" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="확대"/>
+                                <connections>
+                                    <action selector="btnResizeImage:" destination="hiA-jT-zzK" eventType="touchUpInside" id="JQR-YT-YRZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="btnResize" destination="OFE-PV-T6K" id="ACb-ye-fRV"/>
                         <outlet property="lblWay" destination="2jU-cd-ws2" id="Yqm-LR-Nae"/>
                         <outlet property="swIsOn" destination="HLH-bC-MFe" id="ycI-rd-GmE"/>
                         <outlet property="txtMessage" destination="eOt-th-lqD" id="DAL-w3-KHu"/>
@@ -154,6 +163,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wPI-wV-bEt"/>
+        <segue reference="ZJB-UJ-DuP"/>
     </inferredMetricsTieBreakers>
 </document>
